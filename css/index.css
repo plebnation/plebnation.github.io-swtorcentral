@@ -1,715 +1,87 @@
 body {
-  background-color: rgb(0, 0, 0);
-  font: 300 16px/1.38 Roboto;
+  background-color: rgb(209, 45, 22);
+  font: 400 18px/1.38 'News Cycle';
   color: rgb(255, 255, 255);
 }
 
-.about .description {
-  float: left;
-  clear: both;
-  width: 68.0705813347%;
-  min-height: 440px;
-  margin: 29px 0 0 16.0095199999%;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.about .image {
-  position: absolute;
-  top: 87px;
-  left: 0;
-  right: 0;
-  z-index: 39;
-  width: 797px;
-  margin: 0 auto;
-}
-
-.about .subtitle {
-  width: 49.1136600625%;
-  margin: 439px 0 0 25.43991%;
-}
-
-.about .title {
-  float: left;
-  width: 34.0344760166%;
-  min-height: 79px;
-  margin-left: 33.03246%;
-  font-size: 29px;
-  font-weight: 200;
-  line-height: 2.68;
-  color: rgb(255, 255, 255);
-}
-
-.background {
-  position: absolute;
-  top: 990px;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  width: 79.9166666666%;
-  height: 3336px;
-  margin: 0 auto;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 -3px 30px 10px rgba(0, 0, 0, 0.9);
-}
-
-.banner {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 968px;
-  margin: 0 auto;
-  background-image: url('../images/banner.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-}
-
-.button {
+.image {
   display: block;
-  position: relative;
-  float: left;
-  width: 36.0416666666%;
-  height: 116px;
-  margin-left: 31.97917%;
-}
-
-.button .description {
   position: absolute;
-  top: 54px;
-  left: 5.4390089519%;
+  top: 230px;
+  right: 5%;
   z-index: 3;
-  width: 89.1174608915%;
-  min-height: 67px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.button .title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  width: 33.8547789131%;
-  min-height: 50px;
-  margin: 0 auto;
-  font-size: 24px;
-  line-height: 2.28;
-  color: rgb(255, 255, 255);
-}
-
-.contact {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 9;
-  width: 79.9583333333%;
-  height: 260px;
-  margin: 44px 0 0 10.04167%;
-}
-
-.contact .description {
-  position: absolute;
-  top: 86px;
-  left: 0;
-  right: 0;
-  z-index: 7;
-  width: 48.9838457529%;
-  min-height: 124px;
-  margin: 0 auto;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.contact .title {
-  position: absolute;
-  top: 0;
-  left: 32.9647602918%;
-  z-index: 8;
-  width: 34.0167404898%;
-  min-height: 79px;
-  font-size: 26px;
-  font-weight: 200;
-  line-height: 2.68;
-  color: rgb(255, 255, 255);
-}
-
-.cover {
-  position: relative;
-  float: left;
-  z-index: 57;
-  width: 100%;
-  height: 53px;
-  background-color: rgba(0, 0, 0, 0.88);
-  box-shadow: 0 3px 40px 20px rgba(0, 0, 0, 0.88);
-}
-
-.credits {
-  position: absolute;
-  top: 4225px;
-  left: 0;
-  right: 0;
-  z-index: 5;
-  width: 80%;
-  height: 121px;
-  margin: 0 auto;
-  background-color: rgba(46, 46, 46, 0.47);
-}
-
-.credits:hover {
-  background-color: rgba(46, 46, 46, 0.72);
-}
-
-.description-1 p,
-.plebcode p {
-  margin-bottom: 1em;
-}
-
-.discord {
-  display: block;
-  position: absolute;
-  top: 363px;
-  right: 54.3326822916%;
-  z-index: 17;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.discord .description {
-  position: absolute;
-  top: 0;
-  left: 28.055119062%;
-  z-index: 15;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.discord .image {
-  position: relative;
-  float: left;
-  z-index: 16;
-  width: 82px;
-  margin: 15px 0 0 3.91774%;
-}
-
-.discord .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 14;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.email {
-  position: absolute;
-  top: 181px;
-  left: 31.9632621156%;
-  z-index: 6;
-  width: 35.9562272016%;
-  min-height: 79px;
-  font: 26px/2.68 Raleway;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  -webkit-transform: mailto:;
-  -moz-transform: mailto:;
-  -o-transform: mailto:;
-  -ms-transform: mailto:;
-  transform: mailto:;
-  -webkit-transition: mailto:;
-  -moz-transition: mailto:;
-  -o-transition: mailto:;
-  -ms-transition: mailto:;
-  transition: mailto:;
-  -webkit-filter: mailto:;
-  -moz-filter: mailto:;
-  -o-filter: mailto:;
-  -ms-filter: mailto:;
-  filter: mailto:;
-}
-
-.home {
-  display: block;
-  position: absolute;
-  top: 7px;
-  left: 0.5%;
-  z-index: 50;
-  width: 3.3333333333%;
-  height: 39px;
-  background-image: url('../images/logo-new(2).png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.instagram {
-  display: block;
-  position: absolute;
-  top: 530px;
-  right: 54.3326822916%;
-  z-index: 33;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.instagram .description {
-  position: absolute;
-  top: 0;
-  left: 28.055119062%;
-  z-index: 31;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.instagram .image {
-  position: relative;
-  float: left;
-  z-index: 32;
-  width: 60px;
-  margin: 28px 0 0 6.36872%;
-}
-
-.instagram .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 30;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.intro {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 48;
-  width: 80%;
-  height: 941px;
-  margin: 936px 0 0 9.91667%;
-}
-
-.intro .logo {
-  position: absolute;
-  top: 648px;
-  left: 0;
-  right: 0;
-  z-index: 42;
-  width: 232px;
-  margin: 0 auto;
-}
-
-.intro .subtitle {
-  width: 32.0817057291%;
-  margin-left: 34.10319%;
-  font-weight: 100;
-}
-
-.intro .title {
-  float: left;
-  width: 33.9990234375%;
-  min-height: 79px;
-  margin-left: 33.1005899999%;
-  line-height: 2.68;
-  color: rgb(255, 255, 255);
-}
-
-.image,
-.logo {
-  display: block;
+  width: 223px;
   height: auto;
   overflow: hidden;
 }
 
-.main-title {
+.text {
   float: left;
-  clear: both;
-  width: 53.0208333333%;
-  min-height: 109px;
-  margin-left: 23.60352%;
-  font-family: Raleway;
-  font-size: 65px;
-  font-weight: 100;
-  text-align: center;
+  margin-left: 10%;
   color: rgb(255, 255, 255);
 }
 
-.mainbutton {
-  display: block;
-  position: absolute;
-  top: 875px;
-  left: 0;
-  right: 0;
-  z-index: 49;
-  width: 6.1666666666%;
-  height: 46px;
-  margin: 0 auto;
-  border-radius: 3px;
-  background-image: url('../images/Down-Arrow.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-  font-family: Helvetica;
-  font-weight: 400;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.memecentral {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 12.75%;
-  z-index: 53;
-  width: 8.1666666666%;
-  height: 51px;
-  border-radius: 3px;
-  font-family: Raleway;
-  line-height: 3.10;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.about-1:hover,
-.memecentral:hover,
-.plebhub:hover,
-.plebwiki:hover,
-.social-1:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.patreon {
-  display: block;
-  position: absolute;
-  top: 530px;
-  left: 53.9583333333%;
-  z-index: 29;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.patreon .description {
-  position: absolute;
-  top: 0;
-  left: 28.055119062%;
-  z-index: 27;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.patreon .image {
-  position: absolute;
-  top: 27px;
-  left: 6.16%;
-  z-index: 28;
-  width: 62px;
-}
-
-.patreon .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 26;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.plebcode {
+.text-1 {
   position: relative;
-  float: left;
-  clear: both;
-  z-index: 44;
-  width: 53.1656901041%;
-  min-height: 343px;
-  margin: 10px 0 0 23.60352%;
-  font-size: 17px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.plebhub {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 20.9166666666%;
-  z-index: 54;
-  width: 5.25%;
-  height: 51px;
-  border-radius: 3px;
-  font-family: Raleway;
-  line-height: 3.10;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.plebwiki {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 26.1666666666%;
-  z-index: 55;
-  width: 5.4166666666%;
-  height: 51px;
-  border-radius: 3px;
-  font-family: Raleway;
-  line-height: 3.10;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.subtitle {
-  float: left;
-  clear: both;
-  min-height: 28px;
-  font-size: 15px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.title {
-  font-family: Raleway;
-  text-align: center;
-}
-
-.twitch {
-  display: block;
-  position: absolute;
-  top: 195px;
-  left: 53.9583333333%;
-  z-index: 21;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.twitch .description {
-  position: absolute;
-  top: 0;
-  left: 27.9411764705%;
-  z-index: 19;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.twitch .image {
-  position: absolute;
-  top: 22px;
-  left: 6.1274509803%;
-  z-index: 20;
-  width: 62px;
-}
-
-.twitch .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 18;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.twitter {
-  display: block;
-  position: absolute;
-  top: 363px;
-  left: 53.9583333333%;
-  z-index: 25;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.twitter .description {
-  position: absolute;
-  top: 0;
-  left: 28.055119062%;
-  z-index: 23;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.twitter .image {
-  position: relative;
-  float: left;
-  z-index: 24;
-  width: 101px;
-  margin-left: 2.35141%;
-}
-
-.twitter .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 22;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.youtube {
-  display: block;
-  position: absolute;
-  top: 195px;
-  right: 54.3326822916%;
-  z-index: 13;
-  width: 408px;
-  height: 136px;
-  background-color: rgba(61, 61, 61, 0);
-}
-
-.discord:hover,
-.instagram:hover,
-.patreon:hover,
-.twitch:hover,
-.twitter:hover,
-.youtube:hover {
-  background-color: rgba(98, 98, 98, 0.42);
-}
-
-.youtube .description {
-  position: absolute;
-  top: 0;
-  left: 28.055119062%;
-  z-index: 11;
-  width: 71.9408517667%;
-  min-height: 136px;
-  color: rgb(255, 255, 255);
-}
-
-.youtube .logo {
-  position: relative;
-  float: left;
-  z-index: 12;
-  width: 62px;
-  margin: 32px 0 0 5.74449%;
-}
-
-.youtube .title {
-  position: absolute;
-  top: 101px;
-  left: 0;
-  z-index: 10;
-  width: 27.9411764705%;
-  min-height: 35px;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-._container {
-  position: fixed;
-  top: -1px;
-  left: 0;
-  z-index: 56;
-  width: 100%;
-  height: 51px;
-  background-color: rgba(0, 0, 0, 0.63);
-}
-
-._container:hover {
-  background-color: rgba(15, 15, 15, 0.63);
-}
-
-.about-1 {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 9%;
-  z-index: 52;
-  width: 3.75%;
-  height: 51px;
-  border-radius: 3px;
-  font-family: Raleway;
-  line-height: 3.10;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.about-2 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 41;
-  width: 79.9166666666%;
-  height: 1015px;
-  margin: 137px 0 0 10%;
-}
-
-.description-2 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 34;
-  width: 32.0833333333%;
-  min-height: 124px;
-  margin-left: 34.10319%;
-  font-size: 15px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.social-1 {
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 51;
-  width: 9%;
-  height: 51px;
-  border-radius: 3px;
-  font: 15px/3.10 Raleway;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.social-2 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 36;
+  z-index: 0;
   width: 80%;
-  height: 729px;
-  margin-left: 9.91667%;
+  min-height: 189px;
+  margin-top: 214px;
+  font-size: 35px;
 }
 
-.title-1 {
-  font-size: 27px;
-  font-weight: 100;
-}
-
-.title-2 {
+.text-2 {
+  position: relative;
   clear: both;
-  margin-top: 78px;
-  font-size: 28px;
-  font-weight: 200;
+  z-index: 1;
+  width: 59.6%;
+  min-height: 146px;
+  margin-top: -48px;
 }
 
-.title-4 {
-  float: left;
-  width: 33.9990234375%;
-  min-height: 79px;
-  margin-left: 33.1005899999%;
-  font-size: 29px;
-  font-weight: 200;
-  line-height: 2.68;
-  color: rgb(255, 255, 255);
+.text-3 {
+  clear: both;
+  width: 53.6%;
+  min-height: 32px;
+}
+
+@media(max-width: 960px) {
+  .image {
+    top: 533px;
+    height: auto;
+  }
+
+  .text-1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  .text-2 {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media(max-width: 720px) {
+  body {
+    font-size: 18px;
+  }
+
+  .image {
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .text-1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  .text-2 {
+    position: relative;
+    z-index: 1;
+  }
 }
