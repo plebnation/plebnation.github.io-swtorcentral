@@ -1,0 +1,415 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 300 16px/1.38 Roboto;
+  color: rgb(255, 255, 255);
+}
+
+.discord {
+  display: block;
+  position: absolute;
+  top: 363px;
+  right: 54.3326822916%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.discord .image {
+  position: relative;
+  float: left;
+  width: 82px;
+  margin: 15px 0 0 3.91774%;
+}
+
+.image {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+.instagram {
+  display: block;
+  position: absolute;
+  top: 530px;
+  right: 54.3326822916%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.instagram .image {
+  position: relative;
+  float: left;
+  width: 60px;
+  margin: 28px 0 0 6.36872%;
+}
+
+.logo {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 30;
+  width: 62px;
+  height: auto;
+  margin: 32px 0 0 5.74449%;
+  overflow: hidden;
+}
+
+.patreon {
+  display: block;
+  position: absolute;
+  top: 530px;
+  left: 53.9583333333%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.patreon .image {
+  position: absolute;
+  top: 27px;
+  left: 6.16%;
+  width: 62px;
+}
+
+.social {
+  position: relative;
+  float: left;
+  width: 80%;
+  height: 729px;
+  margin-left: 10%;
+}
+
+.title {
+  font-family: Raleway;
+  text-align: center;
+}
+
+.twitch {
+  display: block;
+  position: absolute;
+  top: 195px;
+  left: 53.9583333333%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.twitch .description {
+  position: absolute;
+  top: 0;
+  left: 27.9411764705%;
+  width: 71.9408517667%;
+  min-height: 136px;
+  color: rgb(255, 255, 255);
+}
+
+.twitter {
+  display: block;
+  position: absolute;
+  top: 363px;
+  left: 53.9583333333%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.twitter .image {
+  position: relative;
+  float: left;
+  width: 101px;
+  margin-left: 2.35141%;
+}
+
+.youtube {
+  display: block;
+  position: absolute;
+  top: 195px;
+  right: 54.3326822916%;
+  width: 408px;
+  height: 136px;
+  background-color: rgba(61, 61, 61, 0);
+}
+
+.discord:hover,
+.instagram:hover,
+.patreon:hover,
+.twitch:hover,
+.twitter:hover,
+.youtube:hover {
+  background-color: rgba(98, 98, 98, 0.42);
+}
+
+.discord .description,
+.instagram .description,
+.patreon .description,
+.twitter .description,
+.youtube .description {
+  position: absolute;
+  top: 0;
+  left: 28.055119062%;
+  width: 71.9408517667%;
+  min-height: 136px;
+  color: rgb(255, 255, 255);
+}
+
+.youtube .image {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 114px;
+  margin-top: -18px;
+}
+
+.discord .title,
+.instagram .title,
+.patreon .title,
+.twitch .title,
+.twitter .title,
+.youtube .title {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 27.9411764705%;
+  min-height: 35px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.description-1 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 25;
+  width: 32.0833333333%;
+  min-height: 124px;
+  margin-left: 34.10319%;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.description-10 {
+  z-index: 45;
+}
+
+.description-11 {
+  z-index: 41;
+}
+
+.description-12 {
+  z-index: 37;
+}
+
+.description-13 {
+  z-index: 33;
+}
+
+.description-14 {
+  z-index: 29;
+}
+
+.description-2 {
+  z-index: 22;
+}
+
+.description-3 {
+  z-index: 18;
+}
+
+.description-4 {
+  z-index: 14;
+}
+
+.description-5 {
+  z-index: 10;
+}
+
+.description-6 {
+  z-index: 6;
+}
+
+.description-7 {
+  z-index: 2;
+}
+
+.description-8 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 52;
+  width: 32.0833333333%;
+  min-height: 124px;
+  margin-left: 34.10319%;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.description-9 {
+  z-index: 49;
+}
+
+.discord-1 {
+  z-index: 8;
+}
+
+.discord-2 {
+  z-index: 35;
+}
+
+.image-1 {
+  z-index: 23;
+}
+
+.image-10 {
+  position: absolute;
+  top: 22px;
+  left: 6.1274509803%;
+  z-index: 38;
+  width: 62px;
+}
+
+.image-11 {
+  z-index: 34;
+}
+
+.image-2 {
+  z-index: 19;
+}
+
+.image-3 {
+  z-index: 15;
+}
+
+.image-4 {
+  position: relative;
+  float: left;
+  z-index: 11;
+  width: 114px;
+  margin-top: -18px;
+}
+
+.image-5 {
+  z-index: 7;
+}
+
+.image-7 {
+  z-index: 50;
+}
+
+.image-8 {
+  z-index: 46;
+}
+
+.image-9 {
+  z-index: 42;
+}
+
+.instagram-1 {
+  z-index: 24;
+}
+
+.instagram-2 {
+  z-index: 51;
+}
+
+.patreon-1 {
+  z-index: 20;
+}
+
+.patreon-2 {
+  z-index: 47;
+}
+
+.social-1 {
+  margin-top: 169px;
+}
+
+.social-2 {
+  clear: both;
+}
+
+.title-10 {
+  z-index: 44;
+}
+
+.title-11 {
+  z-index: 40;
+}
+
+.title-12 {
+  z-index: 36;
+}
+
+.title-13 {
+  z-index: 32;
+}
+
+.title-14 {
+  z-index: 28;
+}
+
+.title-2 {
+  z-index: 21;
+}
+
+.title-3 {
+  z-index: 17;
+}
+
+.title-4 {
+  z-index: 13;
+}
+
+.title-5 {
+  z-index: 9;
+}
+
+.title-6 {
+  z-index: 5;
+}
+
+.title-7 {
+  z-index: 1;
+}
+
+.title-1,
+.title-8 {
+  float: left;
+  width: 33.9990234375%;
+  min-height: 79px;
+  margin-left: 33.1005899999%;
+  font-size: 29px;
+  font-weight: 200;
+  line-height: 2.68;
+  color: rgb(255, 255, 255);
+}
+
+.title-9 {
+  z-index: 48;
+}
+
+.twitch-1 {
+  z-index: 12;
+}
+
+.twitch-2 {
+  z-index: 39;
+}
+
+.twitter-1 {
+  z-index: 16;
+}
+
+.twitter-2 {
+  z-index: 43;
+}
+
+.youtube-1 {
+  z-index: 4;
+}
+
+.youtube-2 {
+  z-index: 31;
+}
